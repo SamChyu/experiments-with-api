@@ -26,4 +26,16 @@
         android:layout_height="wrap_content"
         android:text="Upcoming Buses" />
 
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <fragment
+            android:id="@+id/fragment"
+            android:name="com.example.samchyu.experiementingwithmtd.BlankFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </RelativeLayout>
+
 </LinearLayout>
